@@ -1,0 +1,205 @@
+WARC/1.0
+Content-Length: 3086
+WARC-Concurrent-To: <urn:uuid:d801b36f-2f5c-4c61-bb10-5e01971a81b1>
+WARC-Date: 2016-02-05T21:52:39Z
+WARC-Payload-Digest: sha1:GXJXSGMV3AHYX4TETSBFFQSCVDJW7QNW
+WARC-IP-Address: 212.27.63.107
+WARC-Block-Digest: sha1:EOJZD4P2Y6RZCWOB3HLXEE24RCFUGP3D
+WARC-Record-ID: <urn:uuid:d9d0e6e8-c58c-40ae-91ea-fc80d6651f3e>
+WARC-Target-URI: http://01marocain.online.fr/
+WARC-Truncated: length
+WARC-Warcinfo-ID: <urn:uuid:a855e809-16cd-4868-9f49-18db4f004e9e>
+Content-Type: application/http; msgtype=response
+WARC-Type: response
+
+
+WARC/1.0
+Content-Length: 2262
+WARC-Target-URI: http://01marocain.online.fr/
+WARC-Refers-To: <urn:uuid:d9d0e6e8-c58c-40ae-91ea-fc80d6651f3e>
+WARC-Record-ID: <urn:uuid:8a0f17c9-c963-4ebd-bacf-a1f52b0062e2>
+WARC-Date: 2016-02-05T21:52:39Z
+Content-Type: application/json
+WARC-Type: metadata
+
+
+WARC/1.0
+Content-Length: 132
+WARC-Target-URI: http://01marocain.online.fr/
+WARC-Block-Digest: sha1:UH7XO7N2JXTCVZJCJ7HCMX2LMSBFFJ6M
+WARC-Refers-To: <urn:uuid:d9d0e6e8-c58c-40ae-91ea-fc80d6651f3e>
+WARC-Record-ID: <urn:uuid:34969cd1-9555-4238-84e6-080a70a17342>
+WARC-Date: 2016-02-05T21:52:39Z
+Content-Type: text/plain
+WARC-Type: conversion
+
+
+HTTP/1.1 200 OK
+Date: Fri, 05 Feb 2016 21:52:35 GMT
+Server: Apache/ProXad [Jul 22 2015 14:50:04]
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+X-Powered-By: PHP/5.1.3RC4-dev
+Set-Cookie: PHPSESSID=e97e61e9446fe75b7889096e659000e2; path=/
+Connection: close
+Content-Type: text/html
+
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="content-language" content="en" />
+<title>01marocain</title>
+<link rel="stylesheet" type="text/css" media="all" href="http://01marocain.online.fr/xoops.css" />
+
+</head>
+<body>
+  <table cellspacing="0">
+    <tr id="header">
+      <td style="width: 150px; background-color: #2F5376; vertical-align: middle; text-align:center;"><a href="http://01marocain.online.fr/"><img src="http://01marocain.online.fr/themes/02/logo.gif" width="150" alt="" /></a></td>
+      <td style="width: 100%; background-color: #2F5376; vertical-align: middle; text-align:center;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td style="height: 8px; border-bottom: 1px solid silver; background-color: #dddddd;" colspan="2">&nbsp;</td>
+    </tr>
+  </table>
+
+  <table cellspacing="1" align="center" width="80%" border="0" cellpadding="10px;">
+    <tr>
+      <td align="center"><div style="background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;">Le site est actuellement fermé pour maintenance. Merci de réessayer ultérieurement.</div></td>
+    </tr>
+  </table>
+  
+  <form action="http://01marocain.online.fr/user.php" method="post">
+    <table cellspacing="0" align="center" style="border: 1px solid silver; width: 200px;">
+      <tr>
+        <th style="background-color: #2F5376; color: #FFFFFF; padding : 2px; vertical-align : middle;" colspan="2">User Login</th>
+      </tr>
+      <tr>
+        <td style="padding: 2px;">Username: </td><td style="padding: 2px;"><input type="text" name="uname" size="12" value="" /></td>
+      </tr>
+      <tr>
+        <td style="padding: 2px;">Password: </td><td style="padding: 2px;"><input type="password" name="pass" size="12" /></td>
+      </tr>
+      <tr>
+        <td style="padding: 2px;">&nbsp;</td>
+        <td style="padding: 2px;">
+        	<input type="hidden" name="xoops_redirect" value="/" />
+        	<input type="hidden" name="xoops_login" value="1" />
+        	<input type="submit" value="User Login" /></td>
+      </tr>
+    </table>
+  </form>
+
+  <table cellspacing="0" width="100%">
+    <tr>
+      <td style="height:8px; border-bottom: 1px solid silver; border-top: 1px solid silver; background-color: #dddddd;" colspan="2">&nbsp;</td>
+    </tr>
+  </table>
+
+  </body>
+</html>
+{
+  "Container": {
+    "Filename": "CC-MAIN-20160205193905-00000-ip-10-236-182-209.ec2.internal.warc.gz", 
+    "Offset": "846", 
+    "Compressed": true, 
+    "Gzip-Metadata": {
+      "Header-Length": "10", 
+      "Inflated-CRC": "2065955525", 
+      "Inflated-Length": "3650", 
+      "Deflate-Length": "1550", 
+      "Footer-Length": "8"
+    }
+  }, 
+  "Envelope": {
+    "WARC-Header-Length": "560", 
+    "Format": "WARC", 
+    "Block-Digest": "sha1:EOJZD4P2Y6RZCWOB3HLXEE24RCFUGP3D", 
+    "WARC-Header-Metadata": {
+      "Content-Length": "3086", 
+      "WARC-Warcinfo-ID": "<urn:uuid:a855e809-16cd-4868-9f49-18db4f004e9e>", 
+      "WARC-Payload-Digest": "sha1:GXJXSGMV3AHYX4TETSBFFQSCVDJW7QNW", 
+      "WARC-IP-Address": "212.27.63.107", 
+      "WARC-Block-Digest": "sha1:EOJZD4P2Y6RZCWOB3HLXEE24RCFUGP3D", 
+      "WARC-Type": "response", 
+      "WARC-Concurrent-To": "<urn:uuid:d801b36f-2f5c-4c61-bb10-5e01971a81b1>", 
+      "WARC-Target-URI": "http://01marocain.online.fr/", 
+      "WARC-Truncated": "length", 
+      "WARC-Date": "2016-02-05T21:52:39Z", 
+      "Content-Type": "application/http; msgtype=response", 
+      "WARC-Record-ID": "<urn:uuid:d9d0e6e8-c58c-40ae-91ea-fc80d6651f3e>"
+    }, 
+    "Payload-Metadata": {
+      "Actual-Content-Type": "application/http; msgtype=response", 
+      "HTTP-Response-Metadata": {
+        "Headers-Length": "379", 
+        "HTML-Metadata": {
+          "Head": {
+            "Metas": [
+              {
+                "content": "text/html; charset=ISO-8859-1", 
+                "http-equiv": "content-type"
+              }, 
+              {
+                "content": "en", 
+                "http-equiv": "content-language"
+              }
+            ], 
+            "Link": [
+              {
+                "url": "http://01marocain.online.fr/xoops.css", 
+                "path": "LINK@/href", 
+                "type": "text/css", 
+                "rel": "stylesheet"
+              }
+            ], 
+            "Title": "01marocain"
+          }, 
+          "Links": [
+            {
+              "url": "http://01marocain.online.fr/themes/02/logo.gif", 
+              "path": "IMG@/src", 
+              "alt": ""
+            }, 
+            {
+              "url": "http://01marocain.online.fr/", 
+              "path": "A@/href"
+            }, 
+            {
+              "url": "http://01marocain.online.fr/user.php", 
+              "path": "FORM@/action", 
+              "method": "post"
+            }
+          ]
+        }, 
+        "Entity-Digest": "sha1:GXJXSGMV3AHYX4TETSBFFQSCVDJW7QNW", 
+        "Headers": {
+          "X-Powered-By": "PHP/5.1.3RC4-dev", 
+          "Set-Cookie": "PHPSESSID=e97e61e9446fe75b7889096e659000e2; path=/", 
+          "Expires": "Thu, 19 Nov 1981 08:52:00 GMT", 
+          "Server": "Apache/ProXad [Jul 22 2015 14:50:04]", 
+          "Connection": "close", 
+          "Pragma": "no-cache", 
+          "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0", 
+          "Date": "Fri, 05 Feb 2016 21:52:35 GMT", 
+          "Content-Type": "text/html"
+        }, 
+        "Entity-Trailing-Slop-Bytes": "0", 
+        "Response-Message": {
+          "Status": "200", 
+          "Reason": "OK", 
+          "Version": "HTTP/1.1"
+        }, 
+        "Entity-Length": "2707"
+      }, 
+      "Trailing-Slop-Length": "4"
+    }, 
+    "Actual-Content-Length": "3086"
+  }
+}
+01marocain
+Le site est actuellement fermï¿½ pour maintenance. Merci de rï¿½essayer ultï¿½rieurement.
+User Login
+Username: Password: 
